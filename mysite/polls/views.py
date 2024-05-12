@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 
-def index(request):
+def polls(request):
     data = {
         'message': 'Welcome to my Django App!'
     }
